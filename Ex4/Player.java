@@ -5,12 +5,11 @@ class PlayerClass
   String Country=sc.nextLine();
   //String Country=sc.nextLine();
   int BMI=sc.nextInt();
- public void Player_Information(int B,String C)
+ public void Player_Information()
  {
-  this.BMI= 
   System.out.println("Player information are");
-  System.out.println("Country:  "+C);
-  System.out.println("BMI:  "+B);
+  System.out.println("Country:  "+Country);
+  System.out.println("BMI:  "+BMI);
   }
 }
 class Cricket_Player extends PlayerClass
